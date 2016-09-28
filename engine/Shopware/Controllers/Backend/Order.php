@@ -326,7 +326,7 @@ class Shopware_Controllers_Backend_Order extends Shopware_Controllers_Backend_Ex
      * Event listener method which fires when the order store is loaded. Returns an array of order data
      * which displayed in an Ext.grid.Panel. The order data contains all associations of an order (positions, shop, customer, ...).
      * The limit, filter and order parameter are used in the id query. The result of the id query are used
-     * to filter the detailed query which created over the (Query function.
+     * to filter the detailed query which created over the getListQuery function.
      */
     public function getListAction()
     {
